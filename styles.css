@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(21, 117, 117);
+    
+
+}
+nav{
+    height: 80px;
+    background-color: rgb(21, 117, 117);
+    color: aliceblue;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    font-size: 4vw;
+    padding-top: 18px;
+    padding-left: 30vw;
+    font-family: 'Rubik Wet Paint', cursive;
+    
+    
+}
+
+.gamecontainer{
+    background-color: rgb(18, 75, 56);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,12vw);
+    grid-template-rows: repeat(3,12vw);
+}
+.box{
+    border: 2px solid aliceblue;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div:hover{
+    background-color: rgb(8, 15, 22);
+}
+.information h1{
+    color: aliceblue;
+    font-family: 'Rubik Wet Paint', cursive;
+
+}
+    .abc{
+        color: aliceblue;
+        font-family: 'Rubik Wet Paint', cursive;
+        font-size: x-large;
+    
+    }
+
+.info{padding: 0 45px;
+    font-size: larger;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: aliceblue;
+    
+
+
+
+}
+.textbox{
+    font-family: 'Rubik Wet Paint', cursive;
+    color: aliceblue;
+   font-size: 8vw;
+   transition: 2s;
+}
+#reset{
+    color: aliceblue;
+    width: 7vw;
+    height: 3vw;
+    font-size: larger;
+    font-family: 'Rubik Wet Paint', cursive;
+    background-color: rgb(11, 118, 106);
+
+}
+.imagebox img{
+    display: flex ;
+    padding-left: 10vw;
+    padding-top: 1vw;
+    background-color: rgb(18, 75, 56);
+    color: aquamarine;
+    width: 1vw;
+    transition: 2s;
+
+}
+.bl-0{
+    border-left: 0px;
+
+}
+.br-0{
+    border-right: 0px;
+
+}
+.bt-0{
+border-top: 0px;
+}
+.bb-0{
+border-bottom: 0px;
+}
